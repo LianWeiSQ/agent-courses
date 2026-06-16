@@ -3,12 +3,189 @@
 version = 4
 
 [[package]]
-name = "agent_core"
+name = "agent-course-week1-context"
 version = "0.1.0"
 
 [[package]]
-name = "course_cli"
+name = "agent-course-week1-learning-from-experience"
 version = "0.1.0"
-dependencies = [
- "agent_core",
-]
+
+[[package]]
+name = "agent-course-week1-search-codegen"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week1-web-search-agent"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week2-attention-visualization"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week2-context-compression"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week2-kv-cache"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week2-local-llm-serving"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week2-log-sanitization"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week2-prompt-engineering"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week2-system-hint"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week2-user-memory"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week2-user-memory-evaluation"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-agentic-rag"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-agentic-rag-for-user-memory"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-browser-use-rpa"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-contextual-retrieval"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-contextual-retrieval-for-user-memory"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-dense-embedding"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-gaia-experience"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-multimodal-agent"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-retrieval-pipeline"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-sparse-embedding"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-structured-index"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week3-structured-knowledge-extraction"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week4-agent-with-event-trigger"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week4-collaboration-tools"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week4-execution-tools"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week4-perception-tools"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week5-coding-agent"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week6-android-world"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week6-elo-leaderboard"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-adaptthink"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-aworld-train"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-continued-pretraining"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-feedback-guided-sampling"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-intuitor"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-learn-from-observation"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-minimind-pretrain"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-multilingualreasoning"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-orpheus"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-prompt-distillation"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-retool"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-sesame"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-simplevla-rl"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week7-spatialreasoning"
+version = "0.1.0"
+
+[[package]]
+name = "agent-course-week8-live-audio"
+version = "0.1.0"

@@ -1,0 +1,10 @@
+[package]
+name = "agent-course-week7-prompt-distillation"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "agent-course-week7-prompt-distillation"
+path = "src/main.rs"

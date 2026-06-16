@@ -1,7 +1,52 @@
 [workspace]
 members = [
-    "crates/agent_core",
-    "crates/course_cli",
+    "week1/learning-from-experience",
+    "week1/web-search-agent",
+    "week1/search-codegen",
+    "week1/context",
+    "week2/local_llm_serving",
+    "week2/attention_visualization",
+    "week2/kv-cache",
+    "week2/context-compression",
+    "week2/prompt-engineering",
+    "week2/system-hint",
+    "week2/user-memory-evaluation",
+    "week2/user-memory",
+    "week2/log-sanitization",
+    "week3/dense-embedding",
+    "week3/sparse-embedding",
+    "week3/retrieval-pipeline",
+    "week3/multimodal-agent",
+    "week3/structured-index",
+    "week3/agentic-rag",
+    "week3/agentic-rag-for-user-memory",
+    "week3/contextual-retrieval",
+    "week3/contextual-retrieval-for-user-memory",
+    "week3/structured-knowledge-extraction",
+    "week3/gaia-experience",
+    "week3/browser-use-rpa",
+    "week4/perception-tools",
+    "week4/execution-tools",
+    "week4/collaboration-tools",
+    "week4/agent-with-event-trigger",
+    "week5/coding-agent",
+    "week6/android-world",
+    "week6/elo-leaderboard",
+    "week7/AWorld-train",
+    "week7/AdaptThink",
+    "week7/Intuitor",
+    "week7/MiniMind-pretrain",
+    "week7/MultilingualReasoning",
+    "week7/SimpleVLA-RL",
+    "week7/SpatialReasoning",
+    "week7/continued-pretraining",
+    "week7/feedback-guided-sampling",
+    "week7/learn-from-observation",
+    "week7/orpheus",
+    "week7/prompt-distillation",
+    "week7/retool",
+    "week7/sesame",
+    "week8/live-audio"
 ]
 resolver = "2"
 
@@ -9,8 +54,3 @@ resolver = "2"
 edition = "2021"
 license = "MIT"
 repository = "https://github.com/LianWeiSQ/agent-courses"
-authors = ["LianWeiSQ"]
-
-[workspace.lints.rust]
-unsafe_code = "forbid"
-
