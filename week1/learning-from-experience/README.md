@@ -1,6 +1,6 @@
 # 经验学习：RL vs LLM
 
-> Rust 重构版路径：`week1/learning-from-experience`
+> 课程路径：`week1/learning-from-experience`
 
 ## 这节课要解决什么
 
@@ -9,10 +9,10 @@
 ## 学完应该能说清楚
 
 - 这个项目在 Agent = Model + Context + Tools 中属于哪一层。
-- 原始 Python 示例里的核心状态、动作、工具或评估指标是什么。
-- Rust 版如何用类型、结构体和小型测试把概念固定下来。
+- 课程示例里的核心状态、动作、工具或评估指标是什么。
+- 如何用类型、结构体和小型测试把概念固定下来。
 
-## Rust 版怎么运行
+## 怎么运行
 
 从仓库根目录运行：
 
@@ -33,9 +33,9 @@ cargo test -p agent-course-week1-learning-from-experience
 - 样本效率
 - 先验知识
 
-## 重构说明
+## 实现说明
 
-这一版保留原课程目录，不再放 Python 脚本。涉及代码的部分已经改为 Rust CLI demo，入口在 `src/main.rs`。涉及文章说明的部分重写为学习路径、运行方式、核心概念和后续扩展建议。
+代码入口在 `src/main.rs`。说明文档按学习路径、运行方式、核心概念和后续扩展建议组织。
 
 ## 下一步可以怎么扩展
 

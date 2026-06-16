@@ -58,7 +58,7 @@ Rust demo pipeline:"
 完成度信号：{:.0}%",
         score_signal(stages.len(), stages.len()) * 100.0
     );
-    println!("迁移说明：这个版本保留原课程目录，把 Python 脚本重构为 Rust 的类型化、可测试入口。");
+    println!("实现说明：这个示例用类型化、可测试的入口表达课程主流程。");
 }
 
 #[cfg(test)]

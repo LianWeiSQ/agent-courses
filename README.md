@@ -1,14 +1,14 @@
-# Agent Courses Rust 重构版
+# Agent Courses
 
-这个仓库保留原课程的 `week1` 到 `week8` 目录结构，并把每个项目目录里的代码入口重构为 Rust。文章类内容改成更适合学习者阅读的说明：先讲目标，再给运行命令，再说明核心概念和扩展方向。
+这个仓库按 `week1` 到 `week8` 组织，每个项目目录都提供可运行的 Rust 代码入口。文档先讲目标，再给运行命令，再说明核心概念和扩展方向。
 
 ## 重要约定
 
-- 原课程目录形态保留：`week1/...` 到 `week8/...`。
+- 课程目录按 `week1/...` 到 `week8/...` 组织。
 - 每个项目目录都是一个 Rust binary crate。
 - 代码入口统一为 `src/main.rs`。
-- 每个项目都有重写后的 `README.md`。
-- 原来额外的 Markdown 文章路径也尽量保留，并改写为 Rust 版学习说明。
+- 每个项目都有 `README.md`。
+- 额外的 Markdown 文章也按同一套学习说明格式组织。
 
 ## 快速开始
 
@@ -23,7 +23,7 @@ cargo run -p agent-course-week5-coding-agent
 
 ## 课程目录
 
-| 路径 | 课程 | Rust 版目标 |
+| 路径 | 课程 | 学习目标 |
 | --- | --- | --- |
 | `week1/learning-from-experience` | 经验学习：RL vs LLM | 通过寻宝游戏对比传统强化学习和语言模型上下文学习，理解样本效率与先验知识。 |
 | `week1/web-search-agent` | Web Search Agent | 把网络搜索建模为 Agent 的感知工具，并练习多轮检索与答案综合。 |
@@ -73,9 +73,9 @@ cargo run -p agent-course-week5-coding-agent
 | `week7/sesame` | 序列建模与评估 | 围绕序列建模任务组织训练、评估和调优。 |
 | `week8/live-audio` | 实时语音对话 | 设计 ASR、LLM、TTS 和 WebSocket 的低延迟实时链路。 |
 
-## 重构边界
+## 实现边界
 
-这次重构不是另起一个抽象项目，而是在原章节目录里完成 Rust 化。为了让整套课程可以本地稳定编译，外部模型 API、浏览器、训练集和大文件资源没有直接搬进仓库；它们在 README 的扩展方向里作为下一步接入点保留。
+当前实现以稳定、可本地编译为优先。外部模型 API、浏览器、训练集和大文件资源没有直接放进仓库；它们在 README 的扩展方向里作为下一步接入点保留。
 
 ## 验证
 

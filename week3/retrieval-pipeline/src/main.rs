@@ -62,7 +62,7 @@ fn main() {
         println!("  {}. {} score={}", rank + 1, id, score);
     }
     println!("
-结论：Rust 版先用可解释的 token/score 模型表达检索骨架，再逐步替换为真实 embedding、ANN 或 reranker。");
+结论：当前示例先用可解释的 token/score 模型表达检索骨架，再逐步替换为真实 embedding、ANN 或 reranker。");
 }
 
 #[cfg(test)]
