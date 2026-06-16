@@ -1,7 +1,5 @@
 # Go Python Comparison
 
-这份文章已按 Rust 重构版重新整理。
-
 ## 阅读目标
 
 - 先理解 `搜索与代码分析 Agent` 在课程中的角色。

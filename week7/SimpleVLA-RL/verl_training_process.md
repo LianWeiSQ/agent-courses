@@ -1,7 +1,5 @@
 # Verl Training Process
 
-这份文章已按 Rust 重构版重新整理。
-
 ## 阅读目标
 
 - 先理解 `视觉-语言-动作 RL` 在课程中的角色。

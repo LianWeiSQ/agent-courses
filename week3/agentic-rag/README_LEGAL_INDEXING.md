@@ -1,7 +1,5 @@
 # Readme Legal Indexing
 
-这份文章已按 Rust 重构版重新整理。
-
 ## 阅读目标
 
 - 先理解 `Agentic RAG` 在课程中的角色。
